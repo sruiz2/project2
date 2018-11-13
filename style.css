@@ -64,8 +64,6 @@
 	height: 100%;
 	display: grid;
 	align-items: center;
-	padding-left:50px;
-	padding-right:50px;
 }
 .grid-colspan5 {
 	background-color: #d0bce0;
@@ -92,4 +90,8 @@
 p {
 	padding-left:50px;
 	padding-right:50px;
+}
+.mandela {
+    margin-left: auto;
+    margin-right: auto;
 }
