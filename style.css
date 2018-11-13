@@ -6,6 +6,8 @@
 	text-align:center;
 	font-size: 25px;
 	color: #260342;
+	text-align:center;
+	align-items: center;
 }
 .grid2 {
 	display:grid;
@@ -16,6 +18,7 @@
 	text-align:center;
 	font-size: 25px;
 	color: #260342;
+	text-align:center;
 }
 .grid3 {
 	display:grid;
@@ -44,18 +47,32 @@
 .grid-colspan1 {
 	background-color: #d0bce0;
 	grid-column:span 1;
+	height: 100%;
+	display: grid;
+	align-items: center;
 }
 .grid-colspan2 {
 	grid-column:span 2;
 	background-color: #d0bce0;
+	height: 100%;
+	display: grid;
+	align-items: center;
 }
 .grid-colspan3 {
 	background-color: #d0bce0;
 	grid-column:span 3;
+	height: 100%;
+	display: grid;
+	align-items: center;
+	padding-left:50px;
+	padding-right:50px;
 }
 .grid-colspan5 {
 	background-color: #d0bce0;
 	grid-column:span 5;
+	height: 100%;
+	display: grid;
+	align-items: center;
 }
 .hyperlink:hover {
 	color:  #ffffff;
@@ -71,4 +88,8 @@
 }
 ::-webkit-scrollbar { 
     display: none; 
+}
+p {
+	padding-left:50px;
+	padding-right:50px;
 }
