@@ -9,6 +9,7 @@
 	text-align:center;
 	align-items: center;
 }
+
 .grid2 {
 	display:grid;
 	grid-template-columns:1fr 1fr ;
@@ -20,6 +21,7 @@
 	color: #260342;
 	text-align:center;
 }
+
 .grid3 {
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr;
@@ -30,6 +32,7 @@
 	font-size: 25px;
 	color: #260342;
 }
+
 .grid-colspanh {
 	background-image: url("images/headerbackgrounduni.png");
 	grid-column:span 5;
@@ -37,6 +40,7 @@
 	font-size:70px;
 	text-align:center;
 }
+
 .grid-colspan1tab {
 	background-color: #2b1042;
 	grid-column:span 1;
@@ -44,6 +48,7 @@
 	font-family: 'Exo 2', sans-serif;
 	font-size: 15px;
 }
+
 .grid-colspan1 {
 	background-color: #d0bce0;
 	grid-column:span 1;
@@ -51,6 +56,7 @@
 	display: grid;
 	align-items: center;
 }
+
 .grid-colspan2 {
 	grid-column:span 2;
 	background-color: #d0bce0;
@@ -58,6 +64,7 @@
 	display: grid;
 	align-items: center;
 }
+
 .grid-colspan3 {
 	background-color: #d0bce0;
 	grid-column:span 3;
@@ -65,6 +72,7 @@
 	display: grid;
 	align-items: center;
 }
+
 .grid-colspan5 {
 	background-color: #d0bce0;
 	grid-column:span 5;
@@ -72,26 +80,37 @@
 	display: grid;
 	align-items: center;
 }
+
 .hyperlink:hover {
 	color:  #ffffff;
 }
+
 .hyperlink {
 	color:  #f9bdf4;
 }
+
 .hyperlink1 {
 	color:#260342:
 }
+
 .hyperlink1:hover {
 	color:  #f9bdf4;
 }
+
 ::-webkit-scrollbar { 
     display: none; 
 }
+
 p {
 	padding-left:50px;
 	padding-right:50px;
 }
+
 .mandela {
     margin-left: auto;
     margin-right: auto;
+}
+
+.linespace {
+	line-height: 50px;
 }
